@@ -1,0 +1,55 @@
+body {
+  background-image: url("../public/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.gameBoard {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  margin: 0;
+  font-size: 3rem;
+
+}
+
+button:disabled {
+  background-color: unset;
+  color: unset;
+}
+
+.playAgain {
+  width: 300px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+
+.endingDiv {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 6rem;
+}
